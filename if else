@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class decisionmaking {
+public static void main(string[] args){
+int input;
+system.out.println("enter your age:");
+scanner s =new scanner(system.in);
+age=s.nextInt();
+if(age > 20)
+system.out.println("you are a adult.");
+else if(age < 20)
+system.out.println("you are a teenager.");
+else 
+system.out.println("you are a children.");
+}
+}
